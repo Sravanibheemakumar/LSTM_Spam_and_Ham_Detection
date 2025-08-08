@@ -29,8 +29,9 @@ if st.button("Predict"):
     else:
         # Tokenize
         seq = tokenizer.texts_to_sequences([message])
-        
-        if not seq[0]:  # If sequence is empty (unknown words)
+
+        # If all words are unknown → skip prediction
+        if not seq[0]:
             st.warning("⚠️ Message contains only unknown words. Unable to classify.")
         else:
             padded = pad_sequences(seq, maxlen=100)
@@ -40,8 +41,3 @@ if st.button("Predict"):
                 st.error("🚨 Spam Message Detected!")
             else:
                 st.success("✅ It's a Ham (Not Spam) Message.")
-
-
-
-
-
