@@ -3,5 +3,5 @@ scikit-learn
 pandas
 numpy
 pickle-mixin
-keras
-tensorflow
+tensorflow==2.15.0
+
