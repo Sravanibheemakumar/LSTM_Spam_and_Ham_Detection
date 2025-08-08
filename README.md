@@ -49,5 +49,5 @@ It uses a Long Short-Term Memory (LSTM) neural network trained on labeled SMS da
 5.Deployment: Integrating the trained model into a Streamlit app for public use.
 
 🌐 Live Demo
-🔗 Click here to try the app
-
+🔗 [Click here to try the app
+](https://lstmspamandhamdetection-8rwhaeec2wlatzeascuxtd.streamlit.app/)
