@@ -9,7 +9,7 @@ with open("tokenizer.pkl", "rb") as f:
     tokenizer = pickle.load(f)
 
 # Load model
-model = load_model("spam_lstm_model.h5", compile=False)
+model = load_model("spam_lstm_model.keras", compile=False)
 
 # Streamlit UI
 st.title("📩 Spam vs Ham Detector (LSTM)")
@@ -32,3 +32,4 @@ if st.button("Predict"):
             st.success("✅ It's a Ham (Not Spam) Message.")
 
  
+
