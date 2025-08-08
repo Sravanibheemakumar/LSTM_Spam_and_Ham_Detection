@@ -3,6 +3,8 @@ scikit-learn
 pandas
 numpy
 pickle-mixin
-tensorflow
+tensorflow==2.15.0
+h5py
+
 
 
