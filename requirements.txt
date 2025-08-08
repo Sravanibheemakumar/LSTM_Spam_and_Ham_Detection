@@ -3,5 +3,6 @@ scikit-learn
 pandas
 numpy
 pickle-mixin
-tensorflow==2.15.0
+tensorflow
+
 
