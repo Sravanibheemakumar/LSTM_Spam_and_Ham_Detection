@@ -4,8 +4,3 @@ pandas
 numpy
 pickle-mixin
 tensorflow
-h5py
-
-
-
-
