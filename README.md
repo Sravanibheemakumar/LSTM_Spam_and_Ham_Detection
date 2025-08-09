@@ -16,7 +16,7 @@ It uses a Long Short-Term Memory (LSTM) neural network trained on labeled SMS da
 
 📂 Project Structure
 
-├── app.py                       # Streamlit main app file
+├── lstm_app.py                  # Streamlit main app file
 
 ├── spam_lstm_model.keras        # Trained LSTM model
 
