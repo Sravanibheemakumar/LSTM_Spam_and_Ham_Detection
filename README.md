@@ -16,17 +16,17 @@ It uses a Long Short-Term Memory (LSTM) neural network trained on labeled SMS da
 
 📂 Project Structure
 
-├── app.py                  # Streamlit main app file
+├── app.py                       # Streamlit main app file
 
-├── spam_lstm_model.h5      # Trained LSTM model
+├── spam_lstm_model.keras        # Trained LSTM model
 
-├── tokenizer.pkl           # Fitted tokenizer
+├── tokenizer.pkl                # Fitted tokenizer
 
-├── requirements.txt        # Dependencies
+├── requirements.txt             # Dependencies
 
-├── README.md               # Project documentation
+├── README.md                    # Project documentation
 
-└── data/                   # (Optional) Dataset folder
+└── data/ spam.csv               # (Optional) Dataset folder
 
 
 🛠️ Technologies Used
