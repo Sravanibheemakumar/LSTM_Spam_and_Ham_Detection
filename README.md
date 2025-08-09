@@ -1,4 +1,4 @@
-📩 LSTM_Spam_and_Ham_Detection
+# LSTM_Spam_and_Ham_Detection 📩
 
 📩 LSTM-Based Spam vs Ham Detection
 This project is a deep learning-based SMS classification system that detects whether a given message is spam (unwanted promotional or fraudulent) or ham (legitimate).
